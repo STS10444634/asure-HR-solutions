@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | ASURE HR Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:'Roboto', sans-serif; background:#000; color:#fff; line-height:1.7; }
+    header { text-align:center; padding:4rem 5% 2rem; }
+    .logo { max-width:320px; display:block; margin:0 auto 1.5rem; }
+    nav { background:#111; padding:25px; text-align:center; position:sticky; top:0; z-index:100; border-bottom:1px solid #333; }
+    .nav-buttons { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; }
+    .nav-btn {
+      padding:14px 28px;
+      background:transparent;
+      color:#fff;
+      border:2px solid #FF6600;
+      border-radius:6px;
+      text-decoration:none;
+      font-weight:500;
+      font-size:1.05rem;
+      transition:0.3s;
+    }
+    .nav-btn:hover { background:#FF6600; color:#000; }
+    .container { max-width:1100px; margin:0 auto; padding:4rem 5%; }
+    .section-title { font-size:2.4rem; color:#FF6600; text-align:center; margin-bottom:2rem; }
+    .hero {
+      height: 420px;
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://placehold.co/1920x600/111/FF6600?text=CONTACT+US+-+REPLACE+WITH+YOUR+IMAGE') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 4rem;
+      position: relative;
+    }
+    .hero-text { text-align:center; z-index: 2; }
+    .hero-text h2 { font-size: 3.2rem; margin:0; }
+    .accent-line { width: 120px; height: 3px; background:#FF6600; margin: 1.5rem auto; }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      margin-top: 3rem;
+    }
+    .image-placeholder {
+      width: 100%;
+      height: 380px;
+      background: #111;
+      border: 2px solid #FF6600;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: #666;
+      background-size: cover;
+      background-position: center;
+    }
+    form {
+      background: #111;
+      padding: 2.5rem;
+      border-radius: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 1.2rem;
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 4px;
+      color: white;
+      font-size: 1rem;
+    }
+    button {
+      background: #FF6600;
+      color: black;
+      padding: 14px 40px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+      width: 100%;
+    }
+    button:hover { background: #ff8533; transform: translateY(-2px); }
+    .whatsapp-btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      background: transparent;
+      color: #fff;
+      border: 2px solid #25D366;
+      border-radius: 6px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+      transition: 0.3s;
+    }
+    .whatsapp-btn:hover { background: #25D366; color: #000; }
+    footer { background:#000; text-align:center; padding:2.5rem; border-top:1px solid #333; color:#ccc; font-size:0.95rem; }
+    @media (max-width: 768px) { 
+      .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+      .hero { height: 320px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-buttons">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="about.html" class="nav-btn">About Us</a>
+      <a href="vision-mission.html" class="nav-btn">Vision & Mission</a>
+      <a href="founder.html" class="nav-btn">The Founder</a>
+      <a href="services.html" class="nav-btn">Our Services</a>
+      <a href="why.html" class="nav-btn">Why Choose Us</a>
+      <a href="contact.html" class="nav-btn">Contact Us</a>
+    </div>
+  </nav>
+
+  <header>
+    <img src="logo.png" alt="ASURE HR Solutions Logo" class="logo">
+  </header>
+
+  <!-- Creative Hero Banner with BIG image space -->
+  <div class="hero">
+    <div class="hero-text">
+      <h2>Contact Us</h2>
+      <div class="accent-line"></div>
+      <p style="font-size:1.3rem; max-width:600px;">We’re here to help your business grow with practical HR solutions</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+
+    <div class="contact-grid">
+      <!-- Left side - Contact info + WhatsApp + image space -->
+      <div>
+        <div class="image-placeholder" style="background-image: url('https://placehold.co/600x380/111/FF6600?text=OUR+TEAM+-+REPLACE+WITH+YOUR+PHOTO');">
+          <!-- Replace the URL above with your team/office photo -->
+        </div>
+        
+        <h3 style="color:#FF6600;">Get In Touch</h3>
+        <p><strong>Phone:</strong><br>084 519 4688</p>
+        <p><strong>Email:</strong><br>info@asurehr.co.za</p>
+        <p><strong>Location:</strong><br>South Africa</p>
+
+        <a href="https://wa.me/27845194688?text=Hi%20ASURE%20HR%20Solutions%2C%20I%20would%20like%20to%20discuss%20HR%20support%20for%20my%20business." 
+           class="whatsapp-btn" target="_blank">
+           Message us on WhatsApp
+        </a>
+      </div>
+
+      <!-- Right side - Form -->
+      <div>
+        <h3 style="color:#FF6600;">Send Us a Message</h3>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="text" name="name" placeholder="Your Full Name" required>
+          <input type="email" name="email" placeholder="Your Email Address" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number" required>
+          <input type="text" name="company" placeholder="Company Name">
+          <textarea name="message" rows="6" placeholder="How can we help you today?" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Phone: 084 519 4688 | Email: info@asurehr.co.za | South Africa</p>
+    <p>&copy; ASURE HR Solutions. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | ASURE HR Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:'Roboto', sans-serif; background:#000; color:#fff; line-height:1.7; }
+    header { text-align:center; padding:4rem 5% 2rem; }
+    .logo { max-width:320px; display:block; margin:0 auto 1.5rem; }
+    nav { background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1552664730-d307ca884978') center/cover no-repeat; padding:25px; text-align:center; position:sticky; top:0; z-index:100; border-bottom:1px solid #FF6600; }
+    .nav-buttons { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; }
+    .nav-btn { padding:14px 28px; background:transparent; color:#fff; border:2px solid #FF6600; border-radius:6px; text-decoration:none; font-weight:500; font-size:1.05rem; transition:0.3s; }
+    .nav-btn:hover { background:#FF6600; color:#000; }
+    .container { max-width:1100px; margin:0 auto; padding:4rem 5%; }
+    .section-title { font-size:2.4rem; color:#FF6600; text-align:center; margin-bottom:2rem; }
+    .hero { height: 420px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://images.unsplash.com/photo-1524758631624-1960d63e3a7a') center/cover no-repeat; display:flex; align-items:center; justify-content:center; margin-bottom:4rem; }
+    .hero-text { text-align:center; }
+    .hero-text h2 { font-size:3.2rem; margin:0; }
+    .accent-line { width:120px; height:3px; background:#FF6600; margin:1.5rem auto; }
+    .services-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:2rem; }
+    .service-card {
+      background:#111;
+      border-radius:12px;
+      overflow:hidden;
+      border:2px solid #FF6600;
+      transition:transform 0.3s;
+    }
+    .service-card:hover { transform:scale(1.03); }
+    .service-card img {
+      width:100%;
+      height:220px;
+      object-fit:cover;
+    }
+    .service-card h3 {
+      color:#FF6600;
+      padding:1.2rem 1.5rem 0.5rem;
+      margin:0;
+    }
+    .service-card p {
+      padding:0 1.5rem 1.5rem;
+      margin:0;
+    }
+    footer { background:#000; text-align:center; padding:2.5rem; border-top:1px solid #333; color:#ccc; font-size:0.95rem; }
+    @media (max-width:768px) { .hero { height:320px; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-buttons">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="about.html" class="nav-btn">About Us</a>
+      <a href="vision-mission.html" class="nav-btn">Vision & Mission</a>
+      <a href="founder.html" class="nav-btn">The Founder</a>
+      <a href="services.html" class="nav-btn">Our Services</a>
+      <a href="why.html" class="nav-btn">Why Choose Us</a>
+      <a href="contact.html" class="nav-btn">Contact Us</a>
+    </div>
+  </nav>
+
+  <header>
+    <img src="logo.png" alt="ASURE HR Solutions Logo" class="logo">
+  </header>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h2>Our Services</h2>
+      <div class="accent-line"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p style="text-align:center; max-width:900px; margin:0 auto 3rem;">At ASURE HR Solutions, we deliver comprehensive, tailored HR support designed specifically for small, medium, and growing businesses in South Africa. Our services are practical, fully compliant with current labour legislation, and built to scale seamlessly as your company grows — so you can focus on running your business with confidence.</p>
+
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Recruitment">
+        <h3>End-to-End Recruitment</h3>
+        <p>Fair, efficient, compliant hiring—from role profiling to onboarding. Attract talent aligned with business needs. Shortlisting, interviews, and seamless integration.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Policies">
+        <h3>HR Policies & Compliance</h3>
+        <p>Customised policies, audits, and statutory support to minimize risks. Development and review of legally sound policies & procedures. Ongoing compliance guidance.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744ef2e6" alt="Training">
+        <h3>Training & Skills Development</h3>
+        <p>Practical workshops aligned with business needs. Real-world scenarios for managers and employees. Skills alignment with business goals.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1551836026-d6c88e921b91" alt="IR">
+        <h3>Industrial Relations & Advisory</h3>
+        <p>Disciplinary support, mediation, CCMA processes. Disciplinary warnings and grievance handling. Mediation, investigations and hearings. Dispute prevention.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Phone: 084 519 4688 | Email: info@asurehr.co.za | South Africa</p>
+    <p>&copy; ASURE HR Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
